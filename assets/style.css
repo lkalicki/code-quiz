@@ -1,0 +1,97 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+}
+hr {
+  border-top: 1.5px solid rgb(48, 13, 204);
+  color : rgba(48, 13, 204,0.8);
+}
+
+h1 {
+  text-align: left;
+  margin-top: 15%;
+  font-weight: bold;
+}
+header h1 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+li {
+  text-align: left;
+  margin-bottom: 25px;
+}
+#questions {
+  text-align: left;
+}
+#questions h1{
+  text-align: left;
+  font-size: 30px;
+}
+#highscores {
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  clear: both;
+  color: rgba(58, 123, 221, 0.75);
+}
+.timer {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  clear: both;
+}
+#highscore-list {
+  list-style: none;
+  padding-left: 0px;
+}
+.highscore {
+  text-align: left;
+  font-weight: bold;
+  padding: 10px 25px;
+  color: rgba(67, 84, 104,0.9);
+  border-radius: 5px;
+}
+
+.btn-blue {
+  background-color: rgb(55, 0, 128);
+  border-color: rgb(55, 0, 128);
+  color:white;
+  font-weight: bold;
+  padding: 3px 6px;
+}
+
+.nav-container {
+  position: relative;
+  width: 100%;
+  margin-top: .5em;
+  font-size: 24px;
+  height: 40px;
+  font-weight: bolder;
+}
+
+.submit-field {
+  text-align: left;
+}
+
+.fade {
+  animation: cssAnimation 1s forwards;
+}
+
+.fade h3 {
+  font-weight: bold;
+  text-align: left;
+  color : rgba(rgb(128, 128, 128,0.8);
+}
+
+@keyframes cssAnimation {
+  0%   {opacity: 1;}
+  99% {opacity: 1;}
+  100% {opacity: 0;}
+}

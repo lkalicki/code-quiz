@@ -25,7 +25,7 @@ $(document).ready(function (){
             options : [
                "Amount of red pigment",
                "Amount of green pigment",
-               "Amounnt of blue pigment",
+               "Amount of blue pigment",
                "Opacity"
             ],
             answer : "Opacity"

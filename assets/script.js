@@ -80,7 +80,7 @@ $(document).ready(function (){
 
     function startQuiz(){
         $(timrElement).html(`Timer: ${getFormattedSeconds()}`);
-        $(hgscElement).html("View Highscores");
+        $(hgscElement).html("View High Scores");
         reset();
         createInitialPage();
 
